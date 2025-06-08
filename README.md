@@ -159,6 +159,70 @@ Contributions to the LostFound system are welcome! If you'd like to contribute, 
 5.  Commit your changes with clear and concise commit messages.
 6.  Push your branch to your forked repository.
 7.  Create a pull request to the `main` branch of the original repository, describing your changes in detail.
+8.  
+
+# Frontend & Backend of the mobile App 
+
+## 🚀 Technology Stack
+
+- **Mobile Development**: Flutter
+- **Backend & Database**: Firebase (Firestore, Authentication, Storage, Functions)
+- **Authentication**: Firebase Auth with OAuth integration
+- **Maps Integration**: Geographic mapping services
+- **Push Notifications**: Firebase Cloud Messaging (FCM)
+
+## 🎯 Target Users
+
+- **General Public**: Anyone who has lost or found personal items
+- **Students**: University and school communities with high item turnover
+- **Travelers**: Airport, hotel, and transportation hub users
+- **Event Attendees**: Conference, concert, and public event participants
+- **Community Members**: Local neighborhoods and community organizations
+
+### Prerequisites
+- Flutter SDK (latest stable version)
+- Dart SDK
+- Android Studio / VS Code with Flutter extensions
+- Firebase account and project setup
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Dhia9030/FoundIt.git
+   cd FoundIt
+   ```
+
+2. **Install dependencies**
+   ```bash
+   flutter pub get
+   ```
+
+3. **Firebase Setup**
+   - Create a new Firebase project at [Firebase Console](https://console.firebase.google.com)
+   - Enable Authentication, Firestore Database, and Storage
+   - Download `google-services.json` (Android) and `GoogleService-Info.plist` (iOS)
+   - Place the configuration files in their respective platform directories
+
+4. **Run the app**
+   ```bash
+   flutter run
+   ```
+
+### Firebase Configuration
+Make sure to enable the following Firebase services:
+- **Authentication**: Email/Password and OAuth providers
+- **Firestore Database**: For storing item reports and user data
+- **Storage**: For uploading item photos
+- **Cloud Functions**: For AI matching and notifications
+  
+Development Commands
+```bash
+flutter run  //Run the app in debug mode
+flutter build apk  //Build APK for Android
+flutter build ios  //Build for iOS
+flutter test  //Run unit tests
+```
 
 ## License
 
