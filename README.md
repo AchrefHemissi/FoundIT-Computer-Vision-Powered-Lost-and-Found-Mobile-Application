@@ -13,7 +13,7 @@ The overall architecture of the LostFound system is designed to be modular, scal
 
 ### Core Components
 
-Based on the provided system architecture diagram (`Screenshot2025-05-12184452.png`), the LostFound system comprises the following key components:
+Based on the provided system architecture diagram ![](assets/system_design.png), the LostFound system comprises the following key components:
 
 *   **Frontend**: The user-facing application where users can report lost or found items, and interact with the system.
 *   **Firebase**: Used for user authentication, real-time database functionalities, and potentially other backend services provided by Google Firebase.
