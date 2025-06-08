@@ -1,0 +1,9 @@
+[submodule "lostfound-messaging-infrastructure"]
+	path = lostfound-messaging-infrastructure
+	url = https://github.com/AchrefHemissi/lostfound-messaging-infrastructure
+[submodule "lostfound-smart_matching-and-fraud_detection-microservices"]
+	path = lostfound-smart_matching-and-fraud_detection-microservices
+	url = https://github.com/AchrefHemissi/lostfound-smart_matching-and-fraud_detection-microservices
+[submodule "FoundIt"]
+	path = FoundIt
+	url = https://github.com/Dhia9030/FoundIt
