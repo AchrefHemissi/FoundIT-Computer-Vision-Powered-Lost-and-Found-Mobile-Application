@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The LostFound system is designed to facilitate the recovery of lost items and the detection of fraudulent activities related to lost and found reports. This comprehensive system leverages a robust messaging infrastructure and intelligent microservices for smart matching and fraud detection to ensure efficient and secure operations. The project is divided into two main repositories: `lostfound-messaging-infrastructure` and `lostfound-smart_matching-and-fraud_detection-microservices`.
+The LostFound system is designed to facilitate the recovery of lost items and the detection of fraudulent activities related to lost and found reports. This comprehensive system leverages a robust messaging infrastructure and intelligent microservices for smart matching and fraud detection to ensure efficient and secure operations. The project is divided into three main repositories: `lostfound-messaging-infrastructure` and `lostfound-smart_matching-and-fraud_detection-microservices` and `FoundIt`.
 
 ## System Architecture
 
