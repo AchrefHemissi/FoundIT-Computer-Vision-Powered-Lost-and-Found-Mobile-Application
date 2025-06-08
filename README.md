@@ -25,7 +25,8 @@ Based on the provided system architecture diagram ![](assets/system_design.png),
 
 ### Message Flow and Inter-service Communication
 
-The `rabbitmq_flow.png` diagram illustrates the message flow within the system, particularly how RabbitMQ is utilized for inter-service communication:
+This diagram illustrates the message flow within the system, particularly how RabbitMQ is utilized for inter-service communication:
+![](assets/rabbitmq_flow.png)
 
 1.  **Gateway to RabbitMQ**: The `gateway` sends messages to a `gateway_fanout_exchange`. A fanout exchange broadcasts messages to all queues bound to it.
 2.  **Task Queues**: From the `gateway_fanout_exchange`, messages are routed to two distinct task queues:
